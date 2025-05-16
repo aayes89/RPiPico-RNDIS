@@ -13,7 +13,7 @@ Convierte tu RPiPico en RNDIS sin necesidad de librerías externas como <b>pico-
 # Modo BOOTSEL en Raspberry Pi Pico (RPiPico)
 - Conectar cable USB micro B en la RPiPico.
 - Mantener presionado el botón BOOTSEL mientras conectas el cable al PC.
-- Soltar botón cuando conectes el cable al PC y se haya escuchado un sonido de dispositivo de almacenamiento conectado.
+- Soltar botón cuando conectes el cable USB al PC.
 - Si aparece una nueva unidad con nombre RPI-RP2, entonces el modo BOOTSEL está activado y listo para programar la RPiPico.
 
 # Como usar
