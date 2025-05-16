@@ -1,0 +1,24 @@
+[Version]
+Signature   = "$Windows NT$"
+Class       = Net
+ClassGuid   = {4d36e972-e325-11ce-bfc1-08002be10318}
+Provider    = %MFGNAME%
+DriverVer   = 05/16/2025,1.0.0.0
+CatalogFile = pico_rndis.cat
+
+[Manufacturer]
+%MFGNAME% = RNDIS_Device,NTx86,NTamd64
+
+[RNDIS_Device.NTx86]
+%RNDIS.DeviceDesc% = RNDIS, USB\VID_16C0&PID_05E1
+
+[RNDIS_Device.NTamd64]
+%RNDIS.DeviceDesc% = RNDIS, USB\VID_16C0&PID_05E1
+
+[RNDIS]
+Include=netrndis.inf
+Needs=Usb_Rndis.NT
+
+[Strings]
+MFGNAME="OpenRNDIS by Slam"
+RNDIS.DeviceDesc="Raspberry Pi Pico RNDIS Adapter"
