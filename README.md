@@ -1,5 +1,6 @@
 # RPiPico-RNDIS
-Convierte tu RPiPico en RNDIS sin necesidad de librerías externas como <b>pico-sdk</b> o <b>TinyUsb</b>.
+Convierte tu RPiPico en RNDIS sin necesidad de librerías externas como <b>pico-sdk</b> o <b>TinyUsb</b>.<br>
+<b>Requiere un núcleo personalizado de Arduino para deshabilitar CDC-ACM, sino no funcionará</b>n
 
 # Objetivo
 - Crear un adaptador RNDIS compatible con varios sistemas operativos utilizando exclusivamente Arduino IDE. (bare-metal)
