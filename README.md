@@ -20,7 +20,7 @@ Convierte tu RPiPico en RNDIS sin necesidad de librerías externas como <b>pico-
 # Como usar
 - Instalar Arduino IDE, de preferencia la 2.3.5, pero cualquier versión debe funcionar.
 - Importar o Abrir el fichero rndis.ino.
-- Añadir el repositorio: <b>https://raw.githubusercontent.com/DeqingSun/ch55xduino/ch55xduino/package_ch55xduino_mcs51_index.json</b> para Raspberry Pi Pico.
+- Añadir el repositorio: <b>https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json</b> para Raspberry Pi Pico.
 - Instalar la placa <b>Arduino Mbed OS RP2040 Boards by Arduino</b>
 - Seleccionar en el Menu de herramientas la placa <b>Arduino Mbed OS RP2040</b> -> <b>Raspberry Pi Pico</b>
 - Seleccionar la opción <b>Exportar binario compilado</b> en el menu <b>Sketch</b>
